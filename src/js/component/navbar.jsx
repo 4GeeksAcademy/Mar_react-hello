@@ -4,8 +4,8 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-info">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
+        <a className="navbar-brand text-light" href="#">
+        The Moonlit Shore
         </a>
         <button
           className="navbar-toggler"
@@ -22,22 +22,22 @@ export const Navbar = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
-                Home
+              The Writer's Nook
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Features
+              Ink & Inspiration
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Pricing
+              Woven Words
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link disabled" aria-disabled="true">
-                Disabled
+              Blog Reflections
               </a>
             </li>
           </ul>
